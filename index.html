@@ -1,61 +1,61 @@
 <!doctype html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#e0e8ff" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#e0e8ff" />
 
-    <title>Order Summary</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="../OBRIEN~1\assets\FAVICO~1.PNG" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <main class="page">
-      <article class="order-card" aria-labelledby="order-title">
-        <div class="hero">
+  <title>Order Summary</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/FAVICO~1.PNG" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main class="page">
+    <article class="order-card" aria-labelledby="order-title">
+      <div class="hero">
+        <img
+          src="./assets/ILLUST~1.SVG"
+          alt="Illustration of the hero image for the order summary"
+          width="450"
+          height="220"
+        />
+      </div>
+
+      <div class="card-content">
+        <header class="summary">
+          <h1 id="order-title">Order Summary</h1>
+          <p>
+            You can now listen to millions of songs, audiobooks, and podcasts
+            on any device anywhere you like!
+          </p>
+        </header>
+
+        <section class="plan" aria-label="Selected plan">
           <img
-            src="./assets\ILLUST~1.SVG"
-            alt="Illustration of the hero image for the order summary"
-            width="450"
-            height="220"
+            class="plan-icon"
+            src="./assets/icon-music.svg"
+            alt=""
+            width="48"
+            height="48"
           />
-        </div>
-
-        <div class="card-content">
-          <header class="summary">
-            <h1 id="order-title">Order Summary</h1>
-            <p>
-              You can now listen to millions of songs, audiobooks, and podcasts
-              on any device anywhere you like!
-            </p>
-          </header>
-
-          <section class="plan" aria-label="Selected plan">
-            <img
-              class="plan-icon"
-              src="../ObrienRose_2509101_CSS - Layout Challenge-001-Order-Summary-Component/assets/icon-music.svg"
-              alt=""
-              width="48"
-              height="48"
-            />
-            <div class="plan-details">
-              <h2>Annual Plan</h2>
-              <p>$59.99/year</p>
-            </div>
-            <button class="change-button" type="button">Change</button>
-          </section>
-
-          <div class="actions">
-            <button class="payment-button" type="button">Proceed to Payment</button>
-            <button class="cancel-button" type="button">Cancel Order</button>
+          <div class="plan-details">
+            <h2>Annual Plan</h2>
+            <p>$59.99/year</p>
           </div>
+          <button class="change-button" type="button">Change</button>
+        </section>
+
+        <div class="actions">
+          <button class="payment-button" type="button">Proceed to Payment</button>
+          <button class="cancel-button" type="button">Cancel Order</button>
         </div>
-      </article>
-    </main>
-  </body>
+      </div>
+    </article>
+  </main>
+</body>
 </html>
