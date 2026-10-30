@@ -27,7 +27,7 @@ body {
   display: grid;
   place-items: center;
   background-color: var(--pale-blue);
-  background-image: url("../assets/pattern-background-desktop.svg");
+  background-image: url("./assets/PATTER~2.SVG");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 100% auto;
@@ -195,7 +195,7 @@ button {
 @media (max-width: 600px) {
   body {
     padding: 24px;
-    background-image: url("./assets/pattern-background-mobile.svg");
+    background-image: url("./assets/PATTER~1.SVG");
   }
 
   .card-content {
